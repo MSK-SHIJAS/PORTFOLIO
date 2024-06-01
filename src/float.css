@@ -1,0 +1,70 @@
+.about{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+  position: absolute;
+  
+}
+.nav-link:hover {
+  color:red; /* Change color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.heading-name {
+  font-size: 3.5em !important;
+  /* padding-left: 45px !important; */
+}
+
+.main-name {
+  color: #cd5ff8;
+  font-size: 2.5em 
+}
+
+.color{
+  background-color: #2e083d;
+}
+
+
+img {
+    position: absolute;
+    width: 500px;
+    height: 1500px;
+    border-radius: 50px;
+  }
+  
+  .a {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: -px;
+  }
+  
+  .c {
+    position: relative;
+    background: RED;
+    color: white;
+    border-radius: 6px;
+    margin-left: 250px;
+    margin-top: 40px;
+    width: 250px;
+    padding: 10px;
+  }
+  
+
+  
+  .d {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+
+
+.ab{
+  color: white;
+  }
+
+
+.ab2{
+  color: yellow;
+  }
+
