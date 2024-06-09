@@ -1,5 +1,16 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaDatabase, FaGithub } from "react-icons/fa";
+import { 
+  FaHtml5, 
+  FaCss3Alt, 
+  FaBootstrap, 
+  FaReact, 
+  FaDatabase, 
+  FaGithub, 
+  FaNodeJs, 
+  FaJsSquare 
+} from "react-icons/fa";
+import { DiMongodb, DiJavascript1 } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -14,7 +25,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        {/* Repeat the card structure for other skills */}
         <div className="col-md-4 mb-4">
           <div className="card">
             <FaCss3Alt className="card-img-top m-auto mt-3" style={{ fontSize: '5rem' }} />
@@ -52,6 +62,38 @@ const Skills = () => {
             <FaGithub className="card-img-top m-auto mt-3" style={{ fontSize: '5rem' }} />
             <div className="card-body text-center">
               <h5 className="card-title">GIT</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <FaNodeJs className="card-img-top m-auto mt-3" style={{ fontSize: '5rem' }} />
+            <div className="card-body text-center">
+              <h5 className="card-title">Node.js</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <DiMongodb className="card-img-top m-auto mt-3" style={{ fontSize: '5rem' }} />
+            <div className="card-body text-center">
+              <h5 className="card-title">MongoDB</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <SiExpress className="card-img-top m-auto mt-3" style={{ fontSize: '5rem' }} />
+            <div className="card-body text-center">
+              <h5 className="card-title">Express.js</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <FaJsSquare className="card-img-top m-auto mt-3" style={{ fontSize: '5rem' }} />
+            <div className="card-body text-center">
+              <h5 className="card-title">JavaScript</h5>
             </div>
           </div>
         </div>

@@ -8,11 +8,14 @@ import me from './about.png';
 import { ReactTyped as Typed } from 'react-typed'; // Correct import
 import Navbars from './Navbars'; // Assuming Navbars component is in a separate file
 import { Outlet } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import resume from './RESUME.pdf'
+
 
 const App = () => {
     return (
         <>
-            <Container className='mt-5'>
+            <Container className='mt mt-5'>
                 <Row>
                     <Col md={8}>
                         <Row>
@@ -26,8 +29,8 @@ const App = () => {
                     <img
                 src={me}
                 alt="me"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid app"
+                style={{ maxHeight: "600px" }}
               />
                     </Col>
                 </Row>
@@ -45,8 +48,12 @@ const App = () => {
             />
           </span>
         </p>
+
+       <a href={resume} download target='_blank'>         <Button variant="primary" size="lg">
+        DOWNLOAD CV
+      </Button></a>
             </Container>
-        
+
         </>
         
     );

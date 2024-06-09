@@ -25,7 +25,7 @@
 }
 
 
-img {
+.app {
     position: absolute;
     width: 500px;
     height: 1500px;
@@ -60,11 +60,44 @@ img {
 
 
 .ab{
-  color: white;
+  color:rgb(5, 99, 96);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
 
 .ab2{
-  color: yellow;
+  color:#2e083d;
+  font-size: 30px;
   }
 
+/* App.css */
+/* App.css */
+.MT {
+  color: red; /* Adjust this value to provide appropriate spacing */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: black; /* White text for better readability */
+  padding: 1rem; /* Padding for spacing */
+}
+
+.carousel-item {
+  text-align: center; /* Center-align text for testing purposes */
+}
+
+/* .ab{
+  width: 500px;
+  height: 500px;
+
+} */
+
+.mt{
+  padding-top: 100px;
+  
+}
+
+
+.d-block{
+  border-radius: 0px;
+}
